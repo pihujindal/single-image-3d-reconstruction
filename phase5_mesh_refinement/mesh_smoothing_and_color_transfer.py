@@ -11,14 +11,14 @@ BASE_DIR = Path(__file__).resolve().parent
 
 MESH_PATH = (
     BASE_DIR.parent
-    / "phase4"
+    / "phase4_mesh_cleaning"
     / "outputs"
     / "cleaned_mesh_final.ply"
 )
 
 POINT_CLOUD_PATH = (
     BASE_DIR.parent
-    / "phase2"
+    / "phase2_colored_point_cloud"
     / "outputs"
     / "filtered_point_cloud.npy"
 )

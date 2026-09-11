@@ -3,7 +3,7 @@ import cv2
 import open3d as o3d
 
 #===================file load=================================
-filtered_points=np.load("../phase2/outputs/filtered_point_cloud.npy")
+filtered_points=np.load("../phase2_colored_point_cloud/outputs/filtered_point_cloud.npy")
 print("Shape: ",filtered_points.shape)
 print("DType: ",filtered_points.dtype)
 

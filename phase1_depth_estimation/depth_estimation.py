@@ -166,6 +166,7 @@ gradient_norm = cv2.normalize(
     cv2.NORM_MINMAX
 ).astype(np.uint8)
 cv2.imshow("Depth Gradient", gradient_norm)
+cv2.imwrite("outputs/depth_gradient.png", gradient_norm)
 threshold = gradient_magnitude.mean() + gradient_magnitude.std()
 print("Threshold:", threshold)
 high_gradient = gradient_magnitude > threshold

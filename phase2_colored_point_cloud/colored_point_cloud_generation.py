@@ -8,7 +8,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 BASE_DIR = Path(__file__).resolve().parent
 
-POINT_CLOUD_PATH = BASE_DIR.parent / "phase1" / "outputs" / "point_cloud.npy"
+POINT_CLOUD_PATH = BASE_DIR.parent / "phase1_depth_estimation" / "outputs" / "point_cloud.npy"
 IMAGE_PATH = BASE_DIR.parent / "assest" / "img.jpg"
 OUTPUT_DIR = BASE_DIR / "outputs"
 

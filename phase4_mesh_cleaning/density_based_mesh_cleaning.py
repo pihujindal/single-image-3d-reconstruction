@@ -6,8 +6,8 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
-MESH_PATH = BASE_DIR.parent / "phase3" / "reconstructed_mesh.ply"
-DENSITY_PATH = BASE_DIR.parent / "phase3" / "densities.npy"
+MESH_PATH = BASE_DIR.parent / "phase3_surface_reconstruction" / "reconstructed_mesh.ply"
+DENSITY_PATH = BASE_DIR.parent / "phase3_surface_reconstruction" / "densities.npy"
 
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

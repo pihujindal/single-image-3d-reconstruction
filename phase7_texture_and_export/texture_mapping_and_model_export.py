@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 MESH_PATH = (
     BASE_DIR.parent
-    / "phase5"
+    / "phase5_mesh_refinement"
     / "outputs"
     / "refined_colored_mesh.ply"
 )
