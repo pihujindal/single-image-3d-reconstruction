@@ -571,14 +571,16 @@ The output of this pipeline, for a given single input image, is:
 
 The reconstructed model should be understood as a **plausible 3D approximation of the visible surface(s) in the input image**, under an assumed camera model — not as a metrically accurate, fully closed 3D scan of the object or scene.
 
-**Screenshot placeholders** *(to be filled in after running the pipeline on a specific input image):*
-
-- Depth map: `[INSERT DEPTH MAP]`
-- Point cloud: `[INSERT POINT CLOUD]`
-- Raw Poisson mesh: `[INSERT RAW MESH]`
-- Cleaned mesh: `[INSERT CLEANED MESH]`
-- Refined mesh: `[INSERT REFINED MESH]`
-- Final textured model: `[INSERT FINAL TEXTURED MODEL]`
+- Depth map:
+![Estimated Depth Map](assets/results/depth_map.png)
+- Raw Poisson mesh:
+  ![Raw Poisson Mesh](assets/results/raw_poisson_mesh.png)
+- Cleaned mesh:
+  ![Cleaned Mesh](assets/results/cleaned_mesh.png)
+- Refined mesh:
+  ![Refined Mesh](assets/results/refined_mesh.png)
+- Final textured model:
+  ![Final Textured Model](assets/results/final_textured_model.png)
 
 ---
 
