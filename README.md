@@ -4,7 +4,6 @@
 [![Open3D](https://img.shields.io/badge/Open3D-0.17%2B-informational)]()
 [![Depth Anything V2](https://img.shields.io/badge/Depth-Anything%20V2-orange)]()
 [![Status](https://img.shields.io/badge/Status-Research%20%2F%20Experimental-yellow)]()
-[![License](https://img.shields.io/badge/License-MIT-green)]()
 
 > A 7-phase experimental pipeline that reconstructs a colored 3D representation of a scene from a **single monocular RGB image**, progressing from depth estimation to a textured, exportable 3D asset.
 
@@ -659,13 +658,6 @@ This project does **not** demonstrate (and does not claim to demonstrate):
 - **Taubin Smoothing** — G. Taubin. *A Signal Processing Approach to Fair Surface Design*. SIGGRAPH, 1995.
 - **3D Gaussian Splatting** (referenced for context and terminology only; not implemented in full here) — B. Kerbl, G. Kopanas, T. Leimkühler, G. Drettakis. *3D Gaussian Splatting for Real-Time Radiance Field Rendering*. SIGGRAPH, 2023.
 
----
-
-## License
-
-This project is released under the **MIT License**. See [`LICENSE`](LICENSE) for full terms.
-
----
 
 ## Acknowledgements
 
