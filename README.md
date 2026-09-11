@@ -571,8 +571,6 @@ The output of this pipeline, for a given single input image, is:
 
 The reconstructed model should be understood as a **plausible 3D approximation of the visible surface(s) in the input image**, under an assumed camera model — not as a metrically accurate, fully closed 3D scan of the object or scene.
 
-**Screenshot placeholders** *(to be filled in after running the pipeline on a specific input image):*
-
 - Depth map:
     **Input Image**
     ![Input Image](assest/img.jpg)
