@@ -575,22 +575,22 @@ The reconstructed model should be understood as a **plausible 3D approximation o
 
 - Depth map:
     **Input Image**
-    ![Input Image](assets/img.jpg)
+    ![Input Image](assest/img.jpg)
     **Estimated Depth Map**
-    ![Estimated Depth Map](assets/results/depth_gradient.png)
+    ![Estimated Depth Map](assest/results/depth_gradient.png)
     **Depth Distribution**
-    ![Depth Histogram](assets/results/depth_histogram.png)
+    ![Depth Histogram](assest/results/depth_histogram.png)
 
 - Point cloud:
-  ![Colored Point Cloud](assets/results/colored_point_cloud.png)
+  ![Colored Point Cloud](assest/results/colored_point_cloud.png)
 - Raw Poisson mesh:
-  ![Raw Poisson Mesh](assets/results/raw_poisson_mesh.png)
+  ![Raw Poisson Mesh](assest/results/raw_poisson_mesh.png)
 - Cleaned mesh:
-  ![Cleaned Mesh](assets/results/cleaned_mesh.png)
+  ![Cleaned Mesh](assest/results/cleaned_mesh.png)
 - Refined mesh:
-  ![Refined Mesh](assets/results/refined_mesh.png)
+  ![Refined Mesh](assest/results/refined_mesh.png)
 - Final textured model:
-  ![Final Textured Model](assets/results/final_textured_model.png)
+  ![Final Textured Model](assest/results/final_textured_model.png)
 
 ---
 
