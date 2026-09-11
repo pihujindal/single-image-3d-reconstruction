@@ -572,7 +572,17 @@ The output of this pipeline, for a given single input image, is:
 The reconstructed model should be understood as a **plausible 3D approximation of the visible surface(s) in the input image**, under an assumed camera model — not as a metrically accurate, fully closed 3D scan of the object or scene.
 
 - Depth map:
-![Estimated Depth Map](assets/results/depth_map.png)
+**Input Image**
+
+![Input Image](assets/img.jpg)
+
+**Estimated Depth Map**
+
+![Estimated Depth Map](assets/results/depth_gradient.png)
+**Depth Distribution**
+![Depth Histogram](assets/results/depth_histogram.png)
+- Point cloud:
+  ![Colored Point Cloud](assets/results/colored_point_cloud.png)
 - Raw Poisson mesh:
   ![Raw Poisson Mesh](assets/results/raw_poisson_mesh.png)
 - Cleaned mesh:
